@@ -1,0 +1,114 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* WASM Demo Custom Styles */
+.wasm-demo-main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wasm-demo-title {
+  margin-bottom: 0.5em;
+}
+.wasm-demo-desc {
+  color: #888;
+  margin-bottom: 2em;
+}
+.wasm-demo-tools {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.wasm-demo-card {
+  min-width: 320px;
+  max-width: 400px;
+  background: rgba(100, 108, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 2px 16px #0001;
+  margin-bottom: 24px;
+}
+.wasm-demo-tool-header {
+  color: #646cff;
+  margin-top: 0;
+}
+.wasm-demo-tool-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: stretch;
+}
+.wasm-demo-tool-label {
+  text-align: left;
+  font-weight: 500;
+}
+.wasm-demo-tool-label span {
+  font-weight: 500;
+}
+.wasm-demo-tool-input {
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #222;
+  color: #fff;
+  font-size: 1em;
+}
+.wasm-demo-tool-button {
+  margin-top: 8px;
+}
+.wasm-demo-tool-output {
+  background: #181a20;
+  color: #b3e1ff;
+  border-radius: 8px;
+  padding: 12px;
+  min-height: 48px;
+  white-space: pre-wrap;
+  word-break: break-all;
+  max-width: 100%;
+  overflow-x: auto;
+}

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Card } from "./Card";
-import { Input } from "./Input";
-import { Button } from "./Button";
-import { ResultBox } from "./ResultBox";
+import { Card } from "./base/Card";
+import { Input } from "./base/Input";
+import { Button } from "./base/Button";
+import { ResultBox } from "./base/ResultBox";
 
 export interface HelloToolProps {
   loaded: boolean;
